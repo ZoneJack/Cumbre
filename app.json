@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "CumbreApp",
+    "slug": "cumbre-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/oikos-logo.png",
+    "scheme": "cumbreapp",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/expo.icon"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/oikos-logo.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/oikos-logo.png",
+      "name": "CumbreApp",
+      "shortName": "CumbreApp",
+      "themeColor": "#1E3A5F",
+      "backgroundColor": "#F8FAFC"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#208AEF",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 76
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
